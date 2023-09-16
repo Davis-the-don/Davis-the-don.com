@@ -1,0 +1,66 @@
+.overall-skills-container{
+    height:fit-content;
+    width: 100vw;
+    padding: 20px;
+    }
+
+
+@media only screen and (max-width:460px){
+    .skills-div{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        }
+        .my-personal-skills{
+            width:100%;
+            height: max-content;
+            }
+            .progress-bars-personal{
+            display:flex;
+            flex-direction: column;
+            gap:20px;
+            background-color: rgb(38, 38, 38);
+            }
+            .my-proffessional-skills{
+                width:100%;
+                height: max-content;
+            }
+            .progress-bars-professional{
+                display:flex;
+                flex-direction: column;
+                gap:20px;
+                background-color: rgb(38, 38, 38);
+                padding: 20px;
+            } 
+}
+@media only screen and (min-width:461px){
+
+    .skills-div{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        gap:10px;
+        width:100%;
+        }
+        .my-personal-skills{
+        width:100%;
+        height: max-content;
+        }
+        .progress-bars-personal{
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+        background-color: rgb(38, 38, 38);
+        }
+        .my-proffessional-skills{
+            width:100%;
+            height: max-content;
+        }
+        .progress-bars-professional{
+            display:flex;
+            flex-direction: column;
+            gap:20px;
+            background-color: rgb(38, 38, 38);
+            padding: 20px;
+        }  
+}
+   

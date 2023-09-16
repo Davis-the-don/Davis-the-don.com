@@ -1,0 +1,35 @@
+.Overall-GetinTouch{
+background-color: rgb(1, 1, 60);
+}
+.Getintouch-content-holder{
+display:grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+height: max-content;
+}
+.call-me{
+
+}
+.call-icon-holder{
+border:1px solid white;
+width: fit-content;
+padding: 20px;
+margin: auto;
+}
+.whatsap-me{
+
+}
+.whatsap-icon-holder{
+    border:1px solid white;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
+.Email-me{
+
+}
+.Email-icon-holder{
+    border:1px solid white;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
